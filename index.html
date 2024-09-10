@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Futebolizando</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img style="height: 525px; width: 840px;" src="img/taça-mundo.jpg" alt="">
+            <p style="font-size: 25px; border: 5px; border-color: blue;">Você sabe o que é isso?</p>
+            <button style="background-color: green; font-size: 20px; border-radius: 180px;" class="btn-proximo" data-proximo="1">Sim</button>
+            <button style="background-color: red; font-size: 20px; border-radius: 180px;" class="btn-proximo" data-proximo="2">Não</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img width="35%"; height="35%" src="https://th.bing.com/th/id/R.6d2d60935d2c5e4e78ad2d011f2efeb0?rik=egiUFEjWDoyQ8Q&pid=ImgRaw&r=0" alt="">
+            <p style="font-size: 50px;">Muito bem!!</p>
+            <p style="font-size: 17px;">E quantas a Seleção Brasileira tem?</p>
+            <button style="background-color: green; font-size: 20px;" class="btn-proximo" data-proximo="3">Aceitar o passeio</button>
+            <button style="background-color: red; font-size: 20px;" class="btn-proximo" data-proximo="4">Recusar o passeio</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/vinganca.jpg" alt="">
+            <p>Mr Laulau acabou morrendo por sua culpa, e agora ele voltará para se vingar, apenas corra!</p>
+            <button style="background-color: yellow; color: black; font-size: 20px;" class="btn-proximo" data-proximo="5">Correr o mais rápido que puder</button>
+            <button style="background-color: yellow; color: black; font-size: 20px;" class="btn-proximo" data-proximo="6">Clamar por ajuda</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img width="35%"; height="35%" src="img/amizade.jpg" alt="">
+            <p style="font-size: 40px;">Bom, depois do passeio, você pode voltar para casa salvo e em segurança, e ganhou a fidelidade de Mr Laulau!</p>
+            <button style="background-color: blue;" class="btn-proximo" data-proximo="0">Voltar ao início</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img width="35%"; height="35%" src="img/cachorrotriste.jpg" alt="imagem voltando para casa e desitindo da aventura">
+            <p style="font-size: 25px;">Mr Laulau acaba ficando decepcionado, mas entende sua escolha e respeita ela, seria uma chance de você mudar de vida e você a despediçou, <br>
+            Bob acaba ficando desapontado também. Tem certeza de sua escolha?</p>
+            <button style="background-color: green; font-size: 20px;" class="btn-proximo" data-proximo="3">Não, aceitar o passeio</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img width="35%"; height="35%" src="img/fugindo.jpg" alt="">
+            <p style="font-size: 25px;">Você deixa o local o mais rápido possível, mas pouco tempo depois Mr Laulau te encontra.</p>
+            <p style="font-size: 35px;">É SEU FIM!</p>
+            <button style="background-color: blue;" class="btn-proximo" data-proximo="0">Voltar ao início</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img width="35%"; height="35%" src="img/gritando.jpg" alt="">
+            <p style="font-size: 25px;">Por mais que parecesse uma grandiosa ideia, não foi o suficiente para te manter fora de riscos!</p>
+            <p style="font-size: 35px;">É SEU FIM!</p>
+            <button style="background-color: blue;" class="btn-proximo" data-proximo="0">Voltar ao início</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
